@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Evrensel Video İndirici (IDM Benzeri)",
+  "version": "1.0",
+  "description": "Şu anki sayfanın adresini yerel çalışan video indirme uygulamanıza gönderir.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

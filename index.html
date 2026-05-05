@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evrensel Video İndirici</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        h1 { color: #2c3e50; text-align: center; }
+        p { font-size: 1.1em; }
+        .hero { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; margin-bottom: 20px; }
+        .feature-list { list-style-type: none; padding: 0; }
+        .feature-list li { margin: 10px 0; background: #ecf0f1; padding: 10px; border-radius: 5px; }
+        code { background: #ecf0f1; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Evrensel Video İndirici</h1>
+        <p>İnternetteki favori videolarınızı ve eğitim kurslarınızı kolayca indirin!</p>
+    </div>
+
+    <h2>Özellikler</h2>
+    <ul class="feature-list">
+        <li><strong>Binlerce Site Desteği:</strong> YouTube, Instagram, Twitter, TikTok, Vimeo ve daha birçok siteden video indirin.</li>
+        <li><strong>Udemy Desteği:</strong> Gelişmiş seçenekler ile <code>cookies.txt</code> kullanarak oturum açmanız gereken platformlardan (Udemy gibi) videoları veya kursları indirebilirsiniz.</li>
+        <li><strong>En İyi Kalite:</strong> Videoları her zaman en yüksek kalitede cihazınıza kaydeder.</li>
+        <li><strong>IDM Benzeri Altyapı:</strong> Güçlü yt-dlp altyapısı sayesinde rastgele web sitelerinden de veri yakalayabilir.</li>
+    </ul>
+
+    <h2>Kurulum ve Kullanım</h2>
+    <p>Uygulamayı kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:</p>
+    <ol>
+        <li>Python 3'ün yüklü olduğundan emin olun. Ayrıca en iyi kalitede indirme için bilgisayarınızda <code>ffmpeg</code> yüklü olması önerilir.</li>
+        <li>Projeyi indirin ve terminalde proje dizinine gidin.</li>
+        <li>Gerekli kütüphaneleri kurun:<br><code>pip install -r requirements.txt</code></li>
+        <li>Uygulamayı çalıştırın:<br><code>python app.py</code></li>
+        <li>Tarayıcınızda <code>http://localhost:5000</code> adresine giderek videolarınızı indirmeye başlayın!</li>
+    </ol>
+
+    <h2>Udemy ve Şifreli Siteler İçin Kullanım</h2>
+    <p>Eğer Udemy gibi üyelik gerektiren sitelerden içerik indirmek isterseniz:</p>
+    <ol>
+        <li>Tarayıcınıza <strong>Get cookies.txt LOCALLY</strong> eklentisini kurun.</li>
+        <li>Udemy'de hesabınıza giriş yapın.</li>
+        <li>Eklenti üzerinden çerezleri (cookies) dışa aktarıp kopyalayın.</li>
+        <li>Uygulamanın arayüzünde "Gelişmiş Seçenekler" kısmına bu çerezleri yapıştırın ve indirmeyi başlatın.</li>
+    </ol>
+
+    <div class="footer">
+        <p>Açık kaynak video indirme aracı.</p>
+    </div>
+</body>
+</html>
